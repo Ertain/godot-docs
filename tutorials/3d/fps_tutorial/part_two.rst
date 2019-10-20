@@ -430,7 +430,7 @@ We are going to move the entire bullet object at the root (``Bullet``). We will 
 
 .. note:: Why are we using an :ref:`Area <class_Area>` and not a :ref:`RigidBody <class_RigidBody>`? The main reason we're not using a :ref:`RigidBody <class_RigidBody>`
           is because we do not want the bullet to interact with other :ref:`RigidBody <class_RigidBody>` nodes.
-          By using an :ref:`Area <class_Area>` we are ensuring that none of the other :ref:`RigidBody <class_RigidBody>` nodes, including other bullets, will be effected.
+          By using an :ref:`Area <class_Area>` we are ensuring that none of the other :ref:`RigidBody <class_RigidBody>` nodes, including other bullets, will be affected.
 
           Another reason is simply because it is easier to detect collisions with an :ref:`Area <class_Area>`!
 
